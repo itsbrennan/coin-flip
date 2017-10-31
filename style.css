@@ -23,6 +23,15 @@ h4{
 
 }
 
+h3{
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #ffa733;
+}
+
 
 #heads {
 	cursor: pointer;
