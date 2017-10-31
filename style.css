@@ -32,6 +32,10 @@ h3{
 	color: #ffa733;
 }
 
+hr {
+	opacity: .3;
+	width: 100%;
+}
 
 #heads {
 	cursor: pointer;
