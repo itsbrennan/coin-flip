@@ -1,0 +1,147 @@
+.wrapper{
+	width: 100%;
+	/*justify-content: center;*/
+	align-items: center;
+
+}
+
+.gameWrapper{
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+
+}
+
+h4{
+
+	font-family: Avenir;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #454545;
+
+}
+
+h3{
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #ffa733;
+}
+
+hr {
+	opacity: .3;
+	width: 100%;
+}
+
+#heads {
+	cursor: pointer;
+	width: 145px;
+	height: 145px;
+	object-fit: contain;
+	background-image: url("images/heads.svg");
+	background-repeat: no-repeat;
+	/*box-shadow: 0 2px 8px 0 rgba(84,84,84,0.25);*/
+	border-radius: 100%;
+	align-items: center;
+	margin: 20px;
+
+}
+
+#heads-selected {
+	cursor: pointer;
+	width: 145px;
+	height: 145px;
+	object-fit: contain;
+	background-image: url("images/heads_selected.svg");
+	background-repeat: no-repeat;
+	/*box-shadow: 0 2px 8px 0 rgba(84,84,84,0.25);*/
+	border-radius: 100%;
+	align-items: center;
+	margin: 20px;
+
+}
+
+
+
+#tails {
+	cursor: pointer;
+	width: 145px;
+	height: 145px;
+	object-fit: contain;
+	background-image: url("images/tails.svg");
+	background-repeat: no-repeat;
+	/*box-shadow: 0 2px 8px 0 rgba(84,84,84,0.25);*/
+	border-radius: 100%;
+	align-items: center;
+	margin: 20px;
+
+}
+
+
+#tails-selected {
+	cursor: pointer;
+	width: 145px;
+	height: 145px;
+	object-fit: contain;
+	background-image: url("images/tails_selected.svg");
+	background-repeat: no-repeat;
+	/*box-shadow: 0 2px 8px 0 rgba(84,84,84,0.25);*/
+	border-radius: 100%;
+	align-items: center;
+	margin: 20px;
+
+}
+
+p {
+
+	font-family: Avenir;
+	font-size: 10px;
+	font-weight: 900;
+	letter-spacing: 1.4px;
+	text-align: center;
+	color: #6b6b6b;
+
+}
+
+#flipButton{
+
+	opacity: 0.75;
+	font-family: Avenir;
+	font-size: 2em;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #6dc82a;
+
+}
+
+#userGuess {
+	opacity: 0.75;
+	font-family: Avenir;
+	font-size: 1em;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #6dc82a;
+}
+
+
+.form-wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+
+}
+
+.flex-items{
+
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
